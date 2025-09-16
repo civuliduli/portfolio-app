@@ -8,7 +8,15 @@ export default function Home() {
   // New state to manage the enlarged image view (modal)
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-
+  const downloadCV = () => {
+    // Method 1: Using a local file (place CV in public folder)
+    const link = document.createElement('a');
+    link.href = '/Abdulla_Civuli_CV.pdf'; // Place your CV file in the public folder
+    link.download = 'Abdulla_Civuli_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   const handleScroll = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, id: string) => {
     event.preventDefault();
@@ -38,7 +46,12 @@ export default function Home() {
               <li><a className="text-white hover:text-blue-600 text-2xl" href="#skills" onClick={(e) => handleScroll(e, 'skills')}>Skills</a></li>
               <li><a className="text-white hover:text-blue-600 text-2xl" href="#contact" onClick={(e) => handleScroll(e, 'contact')}>Contact</a></li>
               <li className="mt-2 md:mt-0">
-                <a className="rounded-xl px-4 py-2 bg-blue-500 font-medium text-black text-lg" href="#">Resume</a>
+                <button
+                  onClick={downloadCV}
+                  className="rounded-xl px-4 py-2 bg-blue-500 font-medium text-black text-lg hover:bg-blue-600 transition-colors"
+                >
+                  Resume
+                </button>
               </li>
             </ul>
           </nav>
@@ -205,13 +218,13 @@ export default function Home() {
                     <p className="text-gray-400 text-base mt-1">June 2023 - October 2025</p>
                   </div>
                   <div>
-                    <h4 className="text-white text-2xl font-medium">Moonlight AS</h4>
+                    <h4 className="text-white text-3xl font-medium">Moonlight AS</h4>
                     <p className="text-gray-400 text-2xl mt-1 font-bold">iOS Engineer</p>
-                    <p className="text-gray-400 text-base mt-1">January 2024 - August 2024</p>
+                    <p className="text-gray-400  text-base mt-1">January 2024 - August 2024</p>
                   </div>
                   <div>
-                    <h4 className="text-white text-2xl font-medium">i Solve</h4>
-                    <p className="text-gray-400 text-2xl mt-1 font-bold">Front - End Engineer</p>
+                    <h4 className="text-white text-3xl font-medium">i Solve</h4>
+                    <p className="text-gray-400  text-2xl mt-1 font-bold">Front - End Engineer</p>
                     <p className="text-gray-400 text-base mt-1">March 2022 - May 2023</p>
                   </div>
                 </div>
@@ -237,7 +250,10 @@ export default function Home() {
                 <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Full Stack</span>
               </div>
               <div className="flex justify-center mb-6">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-2xl font-semibold flex items-center gap-2 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-lg">
+                <button
+                  onClick={downloadCV}
+                  className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-2xl font-semibold flex items-center gap-2 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-lg"
+                >
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-download">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                     <polyline points="7,10 12,15 17,10"></polyline>
