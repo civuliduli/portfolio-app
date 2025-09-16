@@ -259,7 +259,7 @@ export default function Home() {
             <h1 className="text-white text-5xl sm:text-6xl lg:text-7xl font-bold">
               My <span className="underline decoration-4 underline-offset-8 decoration-blue-500/30">Projects</span>
             </h1>
-            <p className="text-gray-400 text-xl leading-relaxed max-w-3xl">
+            <p className="text-gray-400 text-2xl leading-relaxed max-w-xl">
               Here&apos;s a showcase of my recent work spanning web development, mobile applications, and data processing. Each project demonstrates my commitment to creating efficient, scalable solutions using modern technologies and best practices.
             </p>
           </div>
