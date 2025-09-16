@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import Image from 'next/image';
 
 export default function Home() {
 
@@ -256,10 +255,10 @@ export default function Home() {
       <section className="py-74" id="projects">
         <div className="max-w-screen-2xl mx-auto px-8">
           <div className="flex flex-col gap-y-8 mb-12">
-            <h1 className="text-white text-5xl sm:text-6xl lg:text-7xl font-bold">
+            <h1 className="text-white text-5xl sm:text-6xl lg:text-7xl font-bold w-full">
               My <span className="underline decoration-4 underline-offset-8 decoration-blue-500/30">Projects</span>
             </h1>
-            <p className="text-gray-400 text-2xl leading-relaxed max-w-xl">
+            <p className="text-gray-400 text-2xl leading-relaxed w-full">
               Here&apos;s a showcase of my recent work spanning web development, mobile applications, and data processing. Each project demonstrates my commitment to creating efficient, scalable solutions using modern technologies and best practices.
             </p>
           </div>
@@ -269,7 +268,7 @@ export default function Home() {
                 <polyline points="16,18 22,12 16,6"></polyline>
                 <polyline points="8,6 2,12 8,18"></polyline>
               </svg>
-              <h3 className="text-white text-3xl font-semibold">Shortcut Balkans</h3>
+              <h3 className="text-white text-3xl font-semibold w-full">Shortcut Balkans</h3>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
 
@@ -728,7 +727,7 @@ export default function Home() {
                 <p className="text-gray-400 text-2xl mb-6">WildFire is an app developed to allow users to report a fire by taking a picture, selecting the location,
                   and submitting the report to the nearest fire department. It also provides the ability to vote on a fire&apos;s
                   location based on its risk level.</p>
-          
+
               </div>
 
 
