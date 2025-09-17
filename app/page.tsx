@@ -58,16 +58,16 @@ export default function Home() {
         </div>
 
         {/* Hero Section */}
-        <section className="py-74" id="home">
+   <section className="py-74" id="home">
           <div className="flex flex-col lg:flex-row items-center justify-between max-w-screen-xl mx-auto py-12 gap-8">
-            <div className="flex flex-col gap-y-6 items-center lg:items-start text-center lg:text-left flex-1">
+            <div className="flex flex-col gap-y-4 sm:gap-y-6 items-center lg:items-start text-center lg:text-left flex-1">
               <span className="text-blue-600 text-xl">Hello I&apos;m</span>
-              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-4">
-                <h1 className="text-white text-6xl lg:text-8xl font-bold">Abdulla</h1>
-                <h1 className="text-blue-600 text-6xl lg:text-8xl font-bold underline decoration-4 underline-offset-8 decoration-blue-500/30">Civuli</h1>
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-2 sm:gap-x-4">
+                <h1 className="text-white text-5xl sm:text-6xl lg:text-8xl font-bold">Abdulla</h1>
+                <h1 className="text-blue-600 text-5xl sm:text-6xl lg:text-8xl font-bold underline decoration-4 underline-offset-8 decoration-blue-500/30">Civuli</h1>
               </div>
-              <p className="text-gray-400 text-2xl sm:text-4xl font-light">Mobile Developer & Front-End Engineer</p>
-              <p className="text-gray-400 font-light text-2xl">Building elegant solutions to complex problems with modern technologies.</p>
+              <p className="text-gray-400 text-xl sm:text-2xl font-light">Mobile Developer & Front-End Engineer</p>
+              <p className="text-gray-400 font-light text-xl sm:text-2xl">Building elegant solutions to complex problems with modern technologies.</p>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center">
                 <div className="flex gap-x-4">
@@ -92,17 +92,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative bg-gray-900 border border-gray-700 p-10 rounded-2xl shadow-sm w-full max-w-3xl lg:max-w-2xl flex-shrink-0">
-              <div className="flex items-center justify-between mb-10">
-                <div className="flex space-x-3">
-                  <div className="w-5 h-5 rounded-full bg-red-500"></div>
-                  <div className="w-5 h-5 rounded-full bg-yellow-500"></div>
-                  <div className="w-5 h-5 rounded-full bg-green-500"></div>
+            <div className="relative bg-gray-900 border border-gray-700 p-6 sm:p-10 rounded-2xl shadow-sm w-full max-w-3xl lg:max-w-2xl flex-shrink-0">
+              <div className="flex items-center justify-between mb-8 sm:mb-10">
+                <div className="flex space-x-2 sm:space-x-3">
+                  <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-red-500"></div>
+                  <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-yellow-500"></div>
+                  <div className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-green-500"></div>
                 </div>
-                <div className="text-base text-gray-500 font-medium">developer.js</div>
+                <div className="text-sm sm:text-base text-gray-500 font-medium">developer.js</div>
               </div>
-              <div className="flex flex-col gap-y-3 text-xl sm:text-2xl">
-                <p className="text-gray-500">Software Engineer</p>
+              <div className="flex flex-col gap-y-2 sm:gap-y-3 text-sm sm:text-xl">
+                <p className="text-gray-500 text-sm sm:text-xl">Software Engineer</p>
 
                 <div>
                   <pre>
@@ -113,7 +113,7 @@ export default function Home() {
                   </pre>
                 </div>
 
-                <div className="pl-8">
+                <div className="pl-6 sm:pl-8">
                   <pre>
                     <span className="text-purple-400">name</span>
                     <span className="text-gray-400">: </span>
@@ -121,17 +121,17 @@ export default function Home() {
                   </pre>
                 </div>
 
-                <div className="pl-8">
+                <div className="pl-6 sm:pl-8">
                   <pre>
                     <span className="text-purple-400">skills</span>
                     <span className="text-gray-400">: </span>
                     <span className="text-orange-400">[</span>
-                    <span className="text-green-400">&apos;UIKit&apos;, &apos;SwiftUI&apos;, &apos;Angular&apos;</span>
+                    <span className="text-green-400 flex flex-wrap">&apos;UIKit&apos;, &apos;SwiftUI&apos;, &apos;Angular&apos;</span>
                     <span className="text-orange-400">],</span>
                   </pre>
                 </div>
 
-                <div className="pl-8">
+                <div className="pl-6 sm:pl-8">
                   <pre>
                     <span className="text-purple-400">focuses</span>
                     <span className="text-gray-400">: </span>
@@ -141,7 +141,7 @@ export default function Home() {
                   </pre>
                 </div>
 
-                <div className="pl-8">
+                <div className="pl-6 sm:pl-8">
                   <pre>
                     <span className="text-purple-400">learning</span>
                     <span className="text-gray-400">: </span>
@@ -181,7 +181,7 @@ export default function Home() {
                 <h2 className="text-white text-3xl font-semibold">Bio</h2>
               </div>
               <p className="text-gray-400 text-2xl leading-relaxed">
-                Skilled iOS Developer with expertise in mobile app development and front-end Angular development. Also experienced with React, NextJS, and Vue.js.
+                Experienced iOS Developer skilled in innovative app development and optimization using Swift. My expertise extends to Front-End Development, with a focus on Angular and proficiency in other modern JavaScript frameworks like React, Next.js, and Vue.js. I have delivered tailored solutions for diverse clients in both Scandinavia and Switzerland. My strong communication skills allow me to effectively collaborate with clients and partners to ensure project success.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
@@ -213,17 +213,17 @@ export default function Home() {
                 </div>
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-white text-3xl font-medium">Shortcut Balkans</h4>
+                    <h4 className="text-white text-3xl font-medium">Shortcut Balkans - Scandinavian Partners</h4>
                     <p className="text-gray-400 text-2xl mt-1 font-bold">iOS Engineer</p>
                     <p className="text-gray-400 text-base mt-1">June 2023 - October 2025</p>
                   </div>
                   <div>
-                    <h4 className="text-white text-3xl font-medium">Moonlight AS</h4>
+                    <h4 className="text-white text-3xl font-medium">Moonlight AS - Scandinavian Partners</h4>
                     <p className="text-gray-400 text-2xl mt-1 font-bold">iOS Engineer</p>
                     <p className="text-gray-400  text-base mt-1">January 2024 - August 2024</p>
                   </div>
                   <div>
-                    <h4 className="text-white text-3xl font-medium">i Solve</h4>
+                    <h4 className="text-white text-3xl font-medium">i Solve - Swiss Partners</h4>
                     <p className="text-gray-400  text-2xl mt-1 font-bold">Front - End Engineer</p>
                     <p className="text-gray-400 text-base mt-1">March 2022 - May 2023</p>
                   </div>
@@ -275,16 +275,13 @@ export default function Home() {
               My <span className="underline decoration-4 underline-offset-8 decoration-blue-500/30">Projects</span>
             </h1>
             <p className="text-gray-400 text-2xl leading-relaxed w-full">
-              Here&apos;s a showcase of my recent work spanning web development, mobile applications, and data processing. Each project demonstrates my commitment to creating efficient, scalable solutions using modern technologies and best practices.
+Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mobile applications and web development. Each project demonstrates my commitment to creating efficient, scalable solutions using modern technologies and best practices.
             </p>
           </div>
           <div className="flex flex-col gap-y-10 rounded-2xl shadow-sm">
-            <div className="flex items-center gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code w-6 h-6 text-blue-500">
-                <polyline points="16,18 22,12 16,6"></polyline>
-                <polyline points="8,6 2,12 8,18"></polyline>
-              </svg>
-              <h3 className="text-white text-3xl font-semibold w-full">Shortcut Balkans</h3>
+          <div className="flex items-center gap-x-3">
+              <img src="shortcut_norway_logo.jpeg" alt="Description of your image" className="w-15 h-15 text-blue-500" />
+              <h3 className="text-white text-3xl font-semibold w-full">Shortcut Balkans - Scandinavian Partners</h3>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
 
@@ -363,10 +360,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-gray-400 text-2xl mb-6">This project is a comprehensive mobile app designed for an energy company, allowing clients to conveniently monitor
-                  and manage their energy usage. The app provides users with real-time insights into their energy consumption, up-to-
-                  date energy prices, and access to past and current invoices. By offering a clear overview of their usage patterns and
-                  billing details, clients can make more informed decisions to optimize their energy costs.</p>
+                <p className="text-gray-400 text-2xl mb-6">This project is a comprehensive mobile app designed for a Norwegian energy company, allowing clients to conveniently monitor and manage their energy usage. The app provides users with real-time insights into their energy consumption, up-to-date energy prices, and access to past and current invoices. By offering a clear overview of their usage patterns and billing details, clients can make more informed decisions to optimize their energy costs.</p>
               </div>
 
               {/* --- PROJECT CARD 3 --- */}
@@ -404,11 +398,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-gray-400 text-2xl mb-6">The InfoMentor app is an educational tool designed to enhance communication between schools, students, and parents.
-                  It provides easy access to various school-related information, such as assignments, attendance, and assessments.
-                  Schools using InfoMentor can customize the app features, enabling parents and students to receive notifications for
-                  updates, view assessment results, and monitor student progress. The app helps streamline school-parent
-                  communication by centralizing relevant updates in one place, accessible on mobile devices.</p>
+                <p className="text-gray-400 text-2xl mb-6">The InfoMentor app is an educational tool designed to enhance communication between schools, students, and parents. Developed for a Swedish client, it provides easy access to various school-related information, such as assignments, attendance, and assessments. Schools using InfoMentor can customize the app features, enabling parents and students to receive notifications for updates, view assessment results, and monitor student progress. The app helps streamline school-parent communication by centralizing relevant updates in one place, accessible on mobile devices.</p>
 
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
@@ -445,11 +435,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-gray-400 text-2xl mb-6">The Cutters app is designed to simplify the process of getting a haircut by providing a quick, ef cient, and  xed-price
-                  service without the need for appointments. The app allows users to and nearby Cutters salons, join a digital queue, and
-                  pay directly through the app. This drop-in-only concept is available across multiple salons in the Nordic countries,
-                  making it convenient for users to get haircuts on the go. The service emphasizes quality and eficiency, offering haircuts
-                  at a standardized price point.</p>
+                <p className="text-gray-400 text-2xl mb-6">The Cutters app is designed to simplify the process of getting a haircut by providing a quick, efficient, and fixed-price service without the need for appointments. Developed for a Norwegian client, the app allows users to find nearby Cutters salons, join a digital queue, and pay directly through the app. This drop-in-only concept is available across multiple salons in the Nordic countries, making it convenient for users to get haircuts on the go. The service emphasizes quality and efficiency, offering haircuts at a standardized price point.</p>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -485,14 +471,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-gray-400 text-2xl mb-6">VKMedia is a prominent media company in Sweden, primarily known for its digital presence across various platforms.
-                  They have developed multiple apps to deliver tailored content, using the innovative PocketPress platform to enhance
-                  user engagement. This allows VKMedia to integrate their rich web content into native mobile apps, offering features like
-                  notifications, native audio playback, and content sharing. Their suite of apps serves several brands, such as Folkbladet,
-                  Hockeyfokus, and Västerbottens-Kuriren, focusing on delivering local news and entertainment content seamlessly to
-                  users on both Android and iOS devices.By leveraging this technology, VKMedia aims to provide a smooth and intuitive
-                  user experience while keeping maintenance eficient, ensuring they can focus on high-quality journalism and content
-                  delivery.</p>
+                <p className="text-gray-400 text-2xl mb-6">VKMedia is a prominent media company in Sweden, primarily known for its digital presence across various platforms. They have developed multiple apps for a Swedish client to deliver tailored content, using the innovative PocketPress platform to enhance user engagement. This allows VKMedia to integrate their rich web content into native mobile apps, offering features like notifications, native audio playback, and content sharing. Their suite of apps serves several brands, such as Folkbladet, Hockeyfokus, and Västerbottens-Kuriren, focusing on delivering local news and entertainment content seamlessly to users on both Android and iOS devices. By leveraging this technology, VKMedia aims to provide a smooth and intuitive user experience while keeping maintenance efficient, ensuring they can focus on high-quality journalism and content delivery.</p>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -675,8 +654,7 @@ export default function Home() {
                   <h4 className="text-white text-3xl font-bold">Apotea</h4>
 
                 </div>
-                <p className="text-gray-400 text-2xl mb-6">Apotea is the online pharmacy that always has fast deliveries, good prices and a large range. With us you will find both non-prescription goods and prescription products if you want to pick up your prescription for both you, your family and your four-legged friends. Did you know that you can easily pick up animal prescriptions from us by logging in with your e-ID?
-                  At Apotea you will find pharmacy products that are sent to you with fast delivery if you are at home sick with, for example , a fever . We also have thousands of products in health, beauty and skin care. When you pick up a prescription from us, our pharmacists will take care of your case just like at a regular physical pharmacy. If you want advice or have questions about your prescription medicines, help is available via email, telephone or chat. Apotea is Sweden&apos;s largest pharmacy that is only available online.</p>
+                <p className="text-gray-400 text-2xl mb-6">Apotea is the online pharmacy that always has fast deliveries, good prices, and a large range. Developed for a Swedish client, the app allows users to find both non-prescription and prescription products, including those for family and pets. Users can easily pick up animal prescriptions by logging in with their e-ID. At Apotea, you will find pharmacy products that are sent with fast delivery, making it convenient when you are sick. The platform also offers thousands of products in health, beauty, and skin care. When you pick up a prescription, licensed pharmacists will handle your case just as they would at a physical pharmacy, and assistance is available via email, telephone, or chat. Apotea is Sweden&apos;s largest online-only pharmacy.</p>
 
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
@@ -713,7 +691,7 @@ export default function Home() {
                     </svg>
                   </a>
                 </div>
-                <p className="text-gray-400 text-2xl mb-4">An app to motivate bus drivers to walk more but also to teach them health related tips along the way.</p>
+                <p className="text-gray-400 text-2xl mb-4">This project is a mobile application developed for Tide AS, Norway&apos;s second-largest bus company. The app is designed to motivate bus drivers to lead a healthier lifestyle by encouraging them to walk more. It tracks their steps and activity, providing health-related tips and information along the way. By promoting physical well-being and health awareness, the app helps create a positive and supportive environment for Tide AS&apos;s drivers, who are essential to the company&apos;s daily operations of transporting over 500,000 passengers.</p>
 
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
@@ -750,11 +728,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-center gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code w-6 h-6 text-blue-500">
-                <polyline points="16,18 22,12 16,6"></polyline>
-                <polyline points="8,6 2,12 8,18"></polyline>
-              </svg>
-              <h3 className="text-white text-3xl font-semibold">Moonlight</h3>
+              <img src="moonlight-logo.png" alt="Description of your image" className="w-15 h-15 text-blue-500" />
+              <h3 className="text-white text-3xl font-semibold w-full">Moonlight AS - Scandinavian Partners</h3>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
 
@@ -815,12 +790,9 @@ export default function Home() {
 
             </div>
 
-            <div className="flex items-center gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code w-6 h-6 text-blue-500">
-                <polyline points="16,18 22,12 16,6"></polyline>
-                <polyline points="8,6 2,12 8,18"></polyline>
-              </svg>
-              <h3 className="text-white text-3xl font-semibold">i Solve</h3>
+           <div className="flex items-center gap-x-3">
+              <img src="iSolveLogo.png" alt="Description of your image" className="w-15 h-15 text-blue-500" />
+              <h3 className="text-white text-3xl font-semibold w-full">i Solve - Swiss Partners</h3>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
 
@@ -1010,12 +982,6 @@ export default function Home() {
                   about the club, its achievements, and the hiking trails it has conquered. Users can register to receive
                   notifications when new hiking events are scheduled. The website uses Sanity as a CMS, giving
                   administrators the ability to add, remove, and manage hiking events and other content.        </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Python</span>
-                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Scrapy</span>
-                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">MongoDB</span>
-                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Data Mining</span>
-                </div>
               </div>
             </div>
 
@@ -1179,7 +1145,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium text-3xl">Location</h4>
-                      <p className="text-gray-400 text-2xl">Debar, North Macedonia</p>
+                      <p className="text-gray-400 text-2xl">North Macedonia</p>
                     </div>
                   </div>
                 </div>
@@ -1217,11 +1183,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center md:items-end gap-4">
               <div className="flex gap-x-4">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clipRule="evenodd" />
-                  </svg>
-                </a>
+               
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
