@@ -323,6 +323,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                 <p className="text-gray-400 text-2xl mb-6">
                   REMA 1000 is a Norwegian discount grocery retailer with around 1,000 stores across Norway and Denmark. Their &apos;Stavset&apos; grocery store in Trondheim, is focused on making shopping as easy as possible for their customers, provide a safe working environment for their staff and optimising in-store logistics.
                 </p>
+                  <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Combine</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+          </div>
               </div>
 
               {/* --- PROJECT CARD 2 --- */}
@@ -361,6 +367,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   </a>
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">This project is a comprehensive mobile app designed for a Norwegian energy company, allowing clients to conveniently monitor and manage their energy usage. The app provides users with real-time insights into their energy consumption, up-to-date energy prices, and access to past and current invoices. By offering a clear overview of their usage patterns and billing details, clients can make more informed decisions to optimize their energy costs.</p>
+                 <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Combine</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+          </div>
               </div>
 
               {/* --- PROJECT CARD 3 --- */}
@@ -399,7 +411,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   </a>
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">The InfoMentor app is an educational tool designed to enhance communication between schools, students, and parents. Developed for a Swedish client, it provides easy access to various school-related information, such as assignments, attendance, and assessments. Schools using InfoMentor can customize the app features, enabling parents and students to receive notifications for updates, view assessment results, and monitor student progress. The app helps streamline school-parent communication by centralizing relevant updates in one place, accessible on mobile devices.</p>
-
+   <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Storyboard</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Core Data</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVFoundation</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -436,6 +453,13 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   </a>
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">The Cutters app is designed to simplify the process of getting a haircut by providing a quick, efficient, and fixed-price service without the need for appointments. Developed for a Norwegian client, the app allows users to find nearby Cutters salons, join a digital queue, and pay directly through the app. This drop-in-only concept is available across multiple salons in the Nordic countries, making it convenient for users to get haircuts on the go. The service emphasizes quality and efficiency, offering haircuts at a standardized price point.</p>
+                <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Storyboard</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Combine</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">GoogleMaps</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -472,6 +496,13 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   </a>
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">VKMedia is a prominent media company in Sweden, primarily known for its digital presence across various platforms. They have developed multiple apps for a Swedish client to deliver tailored content, using the innovative PocketPress platform to enhance user engagement. This allows VKMedia to integrate their rich web content into native mobile apps, offering features like notifications, native audio playback, and content sharing. Their suite of apps serves several brands, such as Folkbladet, Hockeyfokus, and Västerbottens-Kuriren, focusing on delivering local news and entertainment content seamlessly to users on both Android and iOS devices. By leveraging this technology, VKMedia aims to provide a smooth and intuitive user experience while keeping maintenance efficient, ensuring they can focus on high-quality journalism and content delivery.</p>
+                  <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">WebKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">JSBridge</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -511,6 +542,11 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   suppliers of small electrical appliances for thousands of homes. Wilfa is a leading brand with a focus on design, quality,
                   safety and innovation. We focus on the environment in all our work, and as of spring 2020, Wilfa is environmentally
                   certified and has become an Eco-Lighthouse company - we are proud of that!</p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -551,6 +587,11 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   independent, art-house, and critically acclaimed titles. Unlike traditional streaming services, TriArt Play uses a hybrid
                   model that combines subscription-based access with transactional rentals. The platform is available on web browsers,
                   Android, and iOS devices, allowing users to stream directly or cast to their TVs using Chromecast.</p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Storyboard</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVPlayer</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -590,6 +631,11 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   private travelers looking for both short and long stays. Situated on the waterfront, you can enjoy the relaxing
                   atmosphere and beautiful views that Gothenburg harbor offers. The area has a large parking lot available through the
                   City of Gothenburg&apos;s parking for a fee, which makes it easy to get to us.</p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SaltoSDK</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -628,7 +674,11 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                 <p className="text-gray-400 text-2xl mb-6">Stockholm Design Week is a week filled with inspiring events taking place in the heart of Stockholm. We welcome
                   design enthusiasts from all over the world to celebrate great design, innovations and beautiful things and at the same
                   time discover Stockholm as a great design destination.</p>
-
+    <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -655,7 +705,13 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
 
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">Apotea is the online pharmacy that always has fast deliveries, good prices, and a large range. Developed for a Swedish client, the app allows users to find both non-prescription and prescription products, including those for family and pets. Users can easily pick up animal prescriptions by logging in with their e-ID. At Apotea, you will find pharmacy products that are sent with fast delivery, making it convenient when you are sick. The platform also offers thousands of products in health, beauty, and skin care. When you pick up a prescription, licensed pharmacists will handle your case just as they would at a physical pharmacy, and assistance is available via email, telephone, or chat. Apotea is Sweden&apos;s largest online-only pharmacy.</p>
-
+    <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftUI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">WebKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVFoundation</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -692,7 +748,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   </a>
                 </div>
                 <p className="text-gray-400 text-2xl mb-4">This project is a mobile application developed for Tide AS, Norway&apos;s second-largest bus company. The app is designed to motivate bus drivers to lead a healthier lifestyle by encouraging them to walk more. It tracks their steps and activity, providing health-related tips and information along the way. By promoting physical well-being and health awareness, the app helps create a positive and supportive environment for Tide AS&apos;s drivers, who are essential to the company&apos;s daily operations of transporting over 500,000 passengers.</p>
-
+    <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Storyboard</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">HealthKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -721,7 +782,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                 <p className="text-gray-400 text-2xl mb-6">WildFire is an app developed to allow users to report a fire by taking a picture, selecting the location,
                   and submitting the report to the nearest fire department. It also provides the ability to vote on a fire&apos;s
                   location based on its risk level.</p>
-
+    <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVFoundation</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">MapKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+          </div>
               </div>
 
 
@@ -777,6 +843,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   features, we empower storytellers to create engaging stories and connect with audiences eager to dive
                   into their worlds. Moonlight is more than just an app; it is a vibrant community where stories are born
                   and shared, inspiring creativity and connection.          </p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AI</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Foundation</span>
+          </div>
 
               </div>
 
@@ -825,6 +897,13 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   The program is specially designed for the holy month of Ramadan, allowing users to see how many
                   hours are left until iftar or suhoor based on their city. It also includes a compass feature that shows the
                   exact direction of the Kaaba.        </p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Angular</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Bootstrap</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Angular Material</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">NodeJS</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+          </div>
 
               </div>
 
@@ -855,6 +934,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                 <p className="text-gray-400 text-2xl mb-6">
                   A restaurant menu app that relied on the Conome system, allowing customers to create a menu, add or
                   remove products and categories, rearrange their porition and finally publish the menu live.       </p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Angular</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Angular Material</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Typescript</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">.NET</span>
+          </div>
 
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
@@ -885,12 +970,12 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   The program is designed to process and log payments, with added functionality for managing
                   waitstaff. It features a dedicated interface for waiters to efficiently manage their tables and customers.
                   The program relies on the Conome system       </p>
-                {/* <div className="flex flex-wrap gap-2">
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Python</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Scrapy</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">MongoDB</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Data Mining</span>
-          </div> */}
+                <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Angular</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Angular Material</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">.NET</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">C#</span>
+          </div>
               </div>
 
 
@@ -936,12 +1021,11 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                 </div>
                 <p className="text-gray-400 text-2xl mb-6">
                   This application is designed for a small business to manage scooter rentals by registering customers, creating contracts, assigning scooters, tracking rental periods, and automatically calculating the rental cost based on the scooter’s price and the number of days rented.          </p>
-                {/* <div className="flex flex-wrap gap-2">
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Python</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Scrapy</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">MongoDB</span>
-            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Data Mining</span>
-          </div> */}
+                <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Angular</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Tailwind</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-sm rounded-md border border-blue-500/30">Firebase</span>
+          </div>
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
@@ -982,6 +1066,13 @@ Here&apos;s a showcase of my recent work with Scandinavian partners, spanning mo
                   about the club, its achievements, and the hiking trails it has conquered. Users can register to receive
                   notifications when new hiking events are scheduled. The website uses Sanity as a CMS, giving
                   administrators the ability to add, remove, and manage hiking events and other content.        </p>
+                      <div className="flex flex-wrap gap-2">
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">React</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Bootstrap</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">CMS</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Sanity</span>
+            <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">MailChimp</span>
+          </div>
               </div>
             </div>
 
