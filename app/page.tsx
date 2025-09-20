@@ -432,11 +432,6 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AFNetworking</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Gloss</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
-
-
-
-
-
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVFoundation</span>
                 </div>
               </div>
@@ -985,6 +980,7 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Typescript</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">.NET</span>
                 </div>
+
 
               </div>
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
