@@ -381,9 +381,9 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Combine</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Coordinator</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftGen</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">XCTest</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
-
-
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AppStoreConnect</span>
                 </div>
               </div>
 
@@ -479,6 +479,7 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Klaviyo</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Stripe</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">KingFisher</span>
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">GoogleMaps</span>
                 </div>
               </div>
@@ -1166,8 +1167,12 @@ export default function Home() {
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">UIKit</span>
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">SwiftUI</span>
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">XCode</span>
+                <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">KingFisher</span>
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">Combine</span>
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">AlamoFire</span>
+                <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">CI/CD</span>
+                <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">XCTest</span>
+                <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">StoreKit</span>
                 <span className="px-3 py-2 bg-gray-700/50 text-gray-300 text-2xl rounded-lg border border-gray-600/50">Foundation</span>
               </div>
             </div>
