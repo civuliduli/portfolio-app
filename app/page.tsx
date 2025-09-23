@@ -26,6 +26,8 @@ export default function Home() {
     }
   };
 
+  const skills = ['Angular', 'NodeJS', 'UIKit', 'SwiftUI'];
+
   return (
     <div className="bg-gray-900">
       <header className="mb-2 px-4 shadow">
@@ -66,7 +68,7 @@ export default function Home() {
                 <h1 className="text-white text-5xl sm:text-6xl lg:text-8xl font-bold">Abdulla</h1>
                 <h1 className="text-blue-600 text-5xl sm:text-6xl lg:text-8xl font-bold underline decoration-4 underline-offset-8 decoration-blue-500/30">Civuli</h1>
               </div>
-              <p className="text-gray-400 text-xl sm:text-2xl font-light">Mobile Developer & Front-End Engineer</p>
+              <p className="text-gray-400 text-xl sm:text-2xl font-light">FullStack & Mobile Engineer</p>
               <p className="text-gray-400 font-light text-xl sm:text-2xl">Building elegant solutions to complex problems with modern technologies.</p>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center">
@@ -121,22 +123,35 @@ export default function Home() {
                   </pre>
                 </div>
 
+                {/* --- START OF THE FIX --- */}
                 <div className="pl-6 sm:pl-8">
-                  <pre>
-                    <span className="text-purple-400">skills</span>
-                    <span className="text-gray-400">: </span>
-                    <span className="text-orange-400">[</span>
-                    <span className="text-green-400 flex flex-wrap">&apos;UIKit&apos;, &apos;SwiftUI&apos;, &apos;Angular&apos;</span>
-                    <span className="text-orange-400">],</span>
-                  </pre>
+                  <div className="flex flex-wrap items-baseline">
+                    <pre className="mr-2">
+                      <span className="text-purple-400">skills</span>
+                      <span className="text-gray-400">: </span>
+                      <span className="text-orange-400">[</span>
+                    </pre>
+                    {/* 2. Map over the skills array to render each one */}
+                    {skills.map((skill, index) => (
+                      <pre key={skill}>
+                        <span className="text-green-400">&apos;{skill}&apos;</span>
+                        {/* 3. Add a comma and space if it's not the last skill */}
+                        {index < skills.length - 1 && <span className="text-gray-400">, </span>}
+                      </pre>
+                    ))}
+                    <pre>
+                      <span className="text-orange-400">],</span>
+                    </pre>
+                  </div>
                 </div>
+                {/* --- END OF THE FIX --- */}
 
                 <div className="pl-6 sm:pl-8">
                   <pre>
                     <span className="text-purple-400">focuses</span>
                     <span className="text-gray-400">: </span>
                     <span className="text-orange-400">[</span>
-                    <span className="text-green-400">&apos;Mobile&apos;, &apos;Full-Stack&apos;</span>
+                    <span className="text-green-400">&apos;Full-Stack&apos;, &apos;Mobile&apos;</span>
                     <span className="text-orange-400">],</span>
                   </pre>
                 </div>
@@ -181,7 +196,12 @@ export default function Home() {
                 <h2 className="text-white text-3xl font-semibold">Bio</h2>
               </div>
               <p className="text-gray-400 text-2xl leading-relaxed">
-                Experienced iOS Developer skilled in innovative app development and optimization using Swift. My expertise extends to Front-End Development, with a focus on Angular and proficiency in other modern JavaScript frameworks like React, Next.js, and Vue.js. I have delivered tailored solutions for diverse clients in both Scandinavia and Switzerland. My strong communication skills allow me to effectively collaborate with clients and partners to ensure project success.
+                Experienced Software Developer specializing in innovative and full-stack solutions. My front-end and mobile
+                experience includes Swift for iOS development, a specialized focus on Angular, and proficiency in modern
+                JavaScript frameworks like React, Next.js, and Vue.js. This is complemented by a solid background in backend
+                development, including experience with Node.js. I have successfully delivered tailored solutions for diverse
+                clients in both Scandinavia and Switzerland. My strong communication skills enable eﬀective collaboration
+                with clients and partners to ensure project success.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
@@ -224,7 +244,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-white text-3xl font-medium">i Solve - Swiss Partners</h4>
-                    <p className="text-gray-400  text-2xl mt-1 font-bold">Front - End Engineer</p>
+                    <p className="text-gray-400  text-2xl mt-1 font-bold">Full - Stack Engineer</p>
                     <p className="text-gray-400 text-base mt-1">March 2022 - May 2023</p>
                   </div>
                 </div>
@@ -241,13 +261,13 @@ export default function Home() {
               </div>
               <div className="text-center mb-8">
                 <h1 className="text-white text-4xl font-bold mb-2">Abdulla Civuli</h1>
-                <p className="text-gray-400 text-xl">Mobile Developer & Front-End Engineer</p>
+                <p className="text-gray-400 text-xl">FullStack & Mobile Engineer</p>
               </div>
               <div className="flex justify-center flex-wrap gap-4 mb-8">
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Swift</span>
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">SwiftUI</span>
                 <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Angular</span>
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Full Stack</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">NodeJS</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">UIKit</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">SwiftUI</span>
               </div>
               <div className="flex justify-center mb-6">
                 <button
