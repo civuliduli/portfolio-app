@@ -26,6 +26,8 @@ export default function Home() {
     }
   };
 
+  const skills = ['Angular', 'NodeJS', 'UIKit', 'SwiftUI'];
+
   return (
     <div className="bg-gray-900">
       <header className="mb-2 px-4 shadow">
@@ -121,15 +123,28 @@ export default function Home() {
                   </pre>
                 </div>
 
+                {/* --- START OF THE FIX --- */}
                 <div className="pl-6 sm:pl-8">
-                  <pre>
-                    <span className="text-purple-400">skills</span>
-                    <span className="text-gray-400">: </span>
-                    <span className="text-orange-400">[</span>
-                    <span className="text-green-400 flex flex-wrap">&apos;UIKit&apos;, &apos;SwiftUI&apos;, &apos;Angular&apos;</span>
-                    <span className="text-orange-400">],</span>
-                  </pre>
+                  <div className="flex flex-wrap items-baseline">
+                    <pre className="mr-2">
+                      <span className="text-purple-400">skills</span>
+                      <span className="text-gray-400">: </span>
+                      <span className="text-orange-400">[</span>
+                    </pre>
+                    {/* 2. Map over the skills array to render each one */}
+                    {skills.map((skill, index) => (
+                      <pre key={skill}>
+                        <span className="text-green-400">&apos;{skill}&apos;</span>
+                        {/* 3. Add a comma and space if it's not the last skill */}
+                        {index < skills.length - 1 && <span className="text-gray-400">, </span>}
+                      </pre>
+                    ))}
+                    <pre>
+                      <span className="text-orange-400">],</span>
+                    </pre>
+                  </div>
                 </div>
+                {/* --- END OF THE FIX --- */}
 
                 <div className="pl-6 sm:pl-8">
                   <pre>
@@ -182,11 +197,11 @@ export default function Home() {
               </div>
               <p className="text-gray-400 text-2xl leading-relaxed">
                 Experienced Software Developer specializing in innovative and full-stack solutions. My front-end and mobile
-experience includes Swift for iOS development, a specialized focus on Angular, and proficiency in modern
-JavaScript frameworks like React, Next.js, and Vue.js. This is complemented by a solid background in backend
-development, including experience with Node.js. I have successfully delivered tailored solutions for diverse
-clients in both Scandinavia and Switzerland. My strong communication skills enable eﬀective collaboration
-with clients and partners to ensure project success.
+                experience includes Swift for iOS development, a specialized focus on Angular, and proficiency in modern
+                JavaScript frameworks like React, Next.js, and Vue.js. This is complemented by a solid background in backend
+                development, including experience with Node.js. I have successfully delivered tailored solutions for diverse
+                clients in both Scandinavia and Switzerland. My strong communication skills enable eﬀective collaboration
+                with clients and partners to ensure project success.
               </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
