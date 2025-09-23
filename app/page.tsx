@@ -151,7 +151,7 @@ export default function Home() {
                     <span className="text-purple-400">focuses</span>
                     <span className="text-gray-400">: </span>
                     <span className="text-orange-400">[</span>
-                    <span className="text-green-400">&apos;Mobile&apos;, &apos;Full-Stack&apos;</span>
+                    <span className="text-green-400">&apos;Full-Stack&apos;, &apos;Mobile&apos;</span>
                     <span className="text-orange-400">],</span>
                   </pre>
                 </div>
@@ -244,7 +244,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-white text-3xl font-medium">i Solve - Swiss Partners</h4>
-                    <p className="text-gray-400  text-2xl mt-1 font-bold">Front - End Engineer</p>
+                    <p className="text-gray-400  text-2xl mt-1 font-bold">Full - Stack Engineer</p>
                     <p className="text-gray-400 text-base mt-1">March 2022 - May 2023</p>
                   </div>
                 </div>
@@ -264,10 +264,10 @@ export default function Home() {
                 <p className="text-gray-400 text-xl">FullStack & Mobile Engineer</p>
               </div>
               <div className="flex justify-center flex-wrap gap-4 mb-8">
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Swift</span>
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">SwiftUI</span>
                 <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Angular</span>
-                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">Full Stack</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">NodeJS</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">UIKit</span>
+                <span className="text-gray-300 px-4 py-2 rounded-full text-2xl whitespace-nowrap border border-gray-500">SwiftUI</span>
               </div>
               <div className="flex justify-center mb-6">
                 <button
