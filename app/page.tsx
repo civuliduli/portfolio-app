@@ -762,7 +762,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3 gap-2">
-                  <h4 className="text-white text-3xl font-bold">Swedish Design Week</h4>
+                  <h4 className="text-white text-3xl font-bold">Stockholm Design Week</h4>
                   <a
                     href="https://apps.apple.com/tr/app/stockholm-design-week/id590228998"
                     target="_blank"
