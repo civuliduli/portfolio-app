@@ -458,6 +458,54 @@ export default function Home() {
               <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
                 <div
                   className="relative w-full h-72 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-lg mb-4 flex items-center justify-center overflow-hidden cursor-pointer"
+                  onClick={() => setSelectedImage("/InfoMentorHub.png")}
+                >
+                  <img
+                    src="/InfoMentorHub.png"
+                    alt="Web Scraper"
+                    className="w-full h-full object-cover transition-transform duration-300"
+                  />
+                  {/* Expand Button */}
+                  <div className="absolute top-3 right-3">
+                    <button className="flex items-center gap-x-1 px-2.5 py-1.5 bg-gray-900/80 border border-gray-600 rounded-lg text-gray-200 text-xs hover:bg-gray-800 transition">
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path>
+                      </svg>
+                      Expand
+                    </button>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3 gap-2">
+                  <h4 className="text-white text-3xl font-bold">InfoMentor Hub</h4>
+                  <a
+                    href="https://apps.apple.com/us/app/infomentor-hub/id1388965431"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-x-2 px-3 py-1.5 bg-gray-800 border border-gray-600 rounded-lg text-gray-300 text-base hover:bg-gray-700 transition-colors w-fit"
+                  >
+                    <span>Read More</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+                <p className="text-gray-400 text-2xl mb-6">This App is for pupils and their parents/guardians using InfoMentor to get information from their school. You can choose which parts of the system you would like to receive push notifications for, like the calendar, attendance, assignments, or a daily summary of assessment that has been published in the system. The options depend on what functions your school is using. From the notifications you can easily click to view related information.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Storyboard</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Core Data</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">MessageKit</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">JTAppleCalendar</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AFNetworking</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Gloss</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AVFoundation</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">SwiftLint</span>
+                </div>
+              </div>
+              <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
+                <div
+                  className="relative w-full h-72 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-lg mb-4 flex items-center justify-center overflow-hidden cursor-pointer"
                   onClick={() => setSelectedImage("/CuttersScreen.png")}
                 >
                   <img
@@ -714,7 +762,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3 gap-2">
-                  <h4 className="text-white text-3xl font-bold">Swedish Design Week</h4>
+                  <h4 className="text-white text-3xl font-bold">Stockholm Design Week</h4>
                   <a
                     href="https://apps.apple.com/tr/app/stockholm-design-week/id590228998"
                     target="_blank"
@@ -853,8 +901,38 @@ export default function Home() {
                   <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
                 </div>
               </div>
+                  <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-colors">
+                <div
+                  className="relative w-full h-72 bg-gradient-to-br from-purple-500/20 to-pink-600/20 rounded-lg mb-4 flex items-center justify-center overflow-hidden cursor-pointer"
+                  onClick={() => setSelectedImage("/ReviewManager.png")}
+                >
+                  <img
+                    src="/ReviewManager.png"
+                    alt="Web Scraper"
+                    className="w-full h-full object-cover transition-transform duration-300"
+                  />
+                  {/* Expand Button */}
+                  <div className="absolute top-3 right-3">
+                    <button className="flex items-center gap-x-1 px-2.5 py-1.5 bg-gray-900/80 border border-gray-600 rounded-lg text-gray-200 text-xs hover:bg-gray-800 transition">
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path>
+                      </svg>
+                      Expand
+                    </button>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3 gap-2">
+                  <h4 className="text-white text-3xl font-bold">Review Manager</h4>
 
-
+                </div>
+                <p className="text-gray-400 text-2xl mb-6">Developed Review Manager, a streamlined iOS application designed to manage and track bug reports for a specific software project. The app provides users with a real-time view of all reported bugs and includes a seamless sharing feature to collaborate with team members. A key focus of the project was security, ensuring that all sensitive bug report data is protected.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">UIKit</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Firebase</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">Biometrics</span>
+                  <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-2xl rounded-md border border-blue-500/30">AppleKeychain</span>
+                </div>
+              </div>
             </div>
 
             <div className="flex items-center gap-x-3">
